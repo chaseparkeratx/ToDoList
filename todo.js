@@ -33,13 +33,12 @@ const populateTodos = () => {
     orderedList.appendChild(listItem)
   }
 
-  let ol = document.getElementById("todo-list");
-  for (let index = 0; index < arrayOfTodos.length; index++) {
-    const toDo = arrayOfTodos[index];
-    let li = document.createElement("li");
-    const title = document.createTextNode(toDo.title);
-    li.appendChild(title);
-    ol.appendChild(li);
-    }}
-  let removeTodos = () => { 
+  // let ol = document.getElementById("todo-list");
+  // for (let index = 0; index < arrayOfTodos.length; index++) {
+  //   const toDo = arrayOfTodos[index];
+  //   let li = document.createElement("li");
+  //   const title = document.createTextNode(toDo.title);
+  //   li.appendChild(title);
+  //   ol.appendChild(li);
+  //   }
   }

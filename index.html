@@ -14,22 +14,6 @@
       <button onclick="logTodos()">Log Todos</button>
       <button onclick="populateTodos()">Populate Todos</button>
     </div>
-    <div class="buttonContainer2">
-      <label for="userId"></label>
-      FIND BY USER ID:
-      <input type="number" id="userId" min="1" max="10" />
-      <button onclick="repopulateTodos()">Repopulate</button>
-      <button onclick="removeTodos()">Remove Todos</button>
-      SHOW:
-      <select name="status" id="status">
-        <button onclick="completeTodos()">
-          <option value="complete">Completed</option>
-        </button>
-        <button onclick="incompleteTodos()">
-          <option value="incomplete">Not Completed</option>
-        </button>
-      </select>
-    </div>
     <ol id="todo-list">
       <!-- LIs will go here -->
     </ol>
