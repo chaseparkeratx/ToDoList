@@ -41,6 +41,5 @@ const populateTodos = () => {
     li.appendChild(title);
     ol.appendChild(li);
     }}
-  let removeTodos = () => {
-    
+  let removeTodos = () => { 
   }
